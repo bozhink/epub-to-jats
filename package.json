@@ -1,0 +1,26 @@
+{
+  "name": "epub-to-jats",
+  "version": "0.0.1",
+  "description": "NodeJS application for conversion from EPUB to JATS",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bozhink/epub-to-jats.git"
+  },
+  "keywords": [
+    "nodejs",
+    "epub",
+    "nlm",
+    "jats",
+    "jats-publishing"
+  ],
+  "author": "Bozhin Karaivanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bozhink/epub-to-jats/issues"
+  },
+  "homepage": "https://github.com/bozhink/epub-to-jats#readme"
+}
