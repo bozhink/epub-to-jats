@@ -19,7 +19,9 @@ module.exports = function (html, done) {
                 .filter((prop) => prop.toLowerCase().indexOf('html') >= 0)
                 .forEach((prop) => global[prop] = window[prop]);
 
-            done();
+            if (typeof done === 'function') {
+                done(window);
+            }
         }
     });
 };

@@ -1,8 +1,12 @@
 var options = require('./core/options')(),
-    dom = require('./core/dom');
+    dom = require('./core/dom'),
+    unzip = require('./core/unzip');
 
 console.log(options);
 
-dom('<h1>Hello</h1>', function () {
-    console.log(window.$('h1').text());
+unzip(options['input'], options['output']);
+
+dom('<h1>Hello</h1>', function (window) {
+    const $ = window.$;
+    console.log($('h1').text());
 });
