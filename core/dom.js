@@ -1,6 +1,6 @@
 var jsdom = require('jsdom'),
     fs = require('fs'),
-    jquery = fs.readFileSync("node_modules/jquery/dist/jquery.js", "utf-8"),
+    jquery = fs.readFileSync('node_modules/jquery/dist/jquery.js', 'utf-8'),
     assert = require('assert');
 
 module.exports = function (html, done) {
