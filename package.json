@@ -22,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/bozhink/epub-to-jats/issues"
   },
-  "homepage": "https://github.com/bozhink/epub-to-jats#readme"
+  "homepage": "https://github.com/bozhink/epub-to-jats#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.16.1",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "command-line-args": "^4.0.1",
+    "command-line-usage": "^4.0.0"
+  }
 }
